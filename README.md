@@ -13,6 +13,9 @@ YEET MEET is a telegram bot which can be deployed to a server, heroku or on your
     /exit - Exit Meeting
     /timatable - Shows todays meeting schedule
     
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Aadhi000/Meet-Bot)
+
+
 ## Usage
 	
 	Join Google Meeting
