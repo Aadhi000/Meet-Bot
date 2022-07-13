@@ -1,22 +1,25 @@
 {
-	"name": "Google Meet Telegram Bot",
-  	"description": "Skip Online Lectures like a pro",
-  	"repository": "https://github.com/1337w0rm/YeetMeet",
-  	"keywords": ["selenium", "geckodriver", "python"],
-  	"env": {
-    "BOT_TOKEN": {
-    	"description": "Telegram Bot Token"
-    	},
+    "name": "ACE-AUTO_FORWARDER",
+    "description": "AUTOFORWARD",
+    "repository": "https://github.com/",
+    "keywords": [
+        "telegram bot",
+        "pyrogram"
+    ],
+    "env": {
 
-    "PASSWORD": {
-      "description": "Google account password"
-    	},
-
-    "USERNAME": {
-      "description": "Google Account username/Email."
-    	}
-
-  	},
+        "USERNAME": {
+            "description": "Your Telegram ID",
+            "required": "True"
+        },
+        "BOT_TOKEN": {
+            "description": "Get From @BotFather in Telegram",
+            "required": "True"
+        },
+        "PASSWORD": {
+            "description": "Your API ID From my.telegram.org",
+            "required": "True"
+        },
 
   	"buildpacks": [
       {
