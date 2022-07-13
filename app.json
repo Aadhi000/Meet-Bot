@@ -19,12 +19,7 @@
         "PASSWORD": {
             "description": "Your API ID From my.telegram.org",
             "required": "True"
-        },
+        }
+    }
 
-  	"buildpacks": [
-      {
-      }
-  ],
-
-  "stack": "heroku-20"
 }
