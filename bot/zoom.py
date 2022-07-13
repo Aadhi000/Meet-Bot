@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
-from bot import updater, browser, restricted
+from bot import updater, restricted
 from telegram.ext import run_async
 from telegram import ChatAction
 import os
