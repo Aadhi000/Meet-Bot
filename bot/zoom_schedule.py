@@ -1,6 +1,6 @@
 import logging
 from config import Config
-from bot import updater, browser
+from bot import updater
 from telegram.ext import run_async
 from telegram import ChatAction
 import os
